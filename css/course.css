@@ -1,0 +1,159 @@
+
+.course__aside, .course__product{
+	background: #FFF;
+	box-shadow: 0 2px 7px rgba(0,0,0,0.15);
+	min-height: 300px;
+	margin-left: 13px;
+	border-radius: 3px;
+	position: relative;
+
+
+}
+.course__product{margin-bottom: 25px;}
+.course__product:hover{
+	box-shadow: 0 5px 15px #ccc;
+}
+.course__product img{width: 100%;}
+.course__product h1{font-size: 15px;padding: 15px;}
+.course__product h1 a{color: #262626}
+.course__product h1 a:hover{color: #25c1e7}
+.course__product__teacher{padding-left: 15px;color: #5f5f5f}
+
+.course__product__price{
+	border-top: 1px solid #f1f1f1;
+	padding: 15px;
+	margin: 15px 0;
+	margin-bottom: 0;
+	color:#25c1e7;
+	font-size: 17px;
+	position: relative;
+}
+.course__product__price>.button--blue{font-size: 13px;font-weight: bold;padding: 10px;position: absolute;
+right:15px;top :7px;
+
+}
+
+.course__aside{margin-top: 20px;}
+.container{margin-top: 40px;}
+.course__title{
+	height: 180px;
+	background-image: url("../images/all-course.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	position: relative;
+	text-align: center;
+	color: #FFF;
+}
+.course__title h1{
+	color: #FFF;
+	font-size: 30px;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+.course__title a{
+	color: #FFF;
+	padding: 0 7px;
+
+}
+.course__title__background{
+	height: 180px;
+	width: 100%;
+	background: rgba(45,51,57,0.75);
+	padding: 56px 0;
+	box-sizing: border-box;
+
+}
+.course__filter{
+	box-shadow: 0 2px 7px rgba(0,0,0,0.15);
+	border-radius: 3px;
+	padding: 15px 10px;
+	box-sizing: border-box;
+	background-color: #FFF;
+	margin: 20px 13px;
+}
+.course__filter__button{
+	position: inherit;
+	padding: 15px 33x;
+	border: 2px solid #A9A9A9;
+	background: #FFF;
+	color:#000;
+}
+.course__filter select{
+	padding: 15px;
+	border: 2px solid #A9A9A9;
+	border-radius: 5px;
+	width: 240px;
+}
+.course__filter select:hover , .course__filter button:hover{
+	border: 2px solid #25c1e7;
+}
+.course__aside h1{
+	font-family: 'Montserrat-Bold';
+	font-size: 22px;
+	padding: 20px 0 0 20px;
+}
+.course__aside .undertitle{
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+.course__category{
+}
+.course__category a{
+	display: block;
+	padding: 20px 0 20px 30px;
+	transition: all .2s;
+	-webkit-transition: all .2s;
+	-moz-transition: all .2s;
+
+}
+.course__category a:hover{
+	background: #25c1e7;
+	color:#FFF;
+}
+.course__teacher{
+	padding: 0 0 10px 20px;
+}
+.course__teacher a{display: block;
+	font-size: 16px
+}
+.course__teacher span{font-size: 13px;}
+.slide{
+	padding: 25px 11px 0px 11px;
+}
+.item{position: relative;}
+.slide__title{
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	padding: 15px;
+	background: #262626;
+	width: 192px;
+	z-index: 1;
+	opacity: 0.7
+}
+.slide__title a{
+	color: #FFF;
+	z-index: 2;
+	display: block;
+	position: relative;
+	font-size: 13px;
+
+}
+.pagenum {
+	margin: auto;
+	width: 50%;
+	margin-bottom: 25px;
+}
+.pagenum button{
+	border: 1px solid #25c1e7;
+	padding: 20px;
+	position: inherit;
+	background: #fff;
+	color: #25c1e7 ;
+	border-radius: 3px;
+
+}
+.pagenum button:hover{
+	background: #25c1e7;
+	color:#FFF;
